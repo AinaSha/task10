@@ -3,7 +3,7 @@
 
 class Restaraunt {
 
-   constructor(name, typeOfKitchen, served) {
+   constructor(name, typeOfKitchen) {
       this.name = name;
       this.typeOfKitchen = typeOfKitchen;
       this.served = 0;
@@ -49,10 +49,7 @@ console.log(jibekJolu.showInfo());
 console.log(jibekJolu.isOpen());
 console.log(jibekJolu.serve());
 console.log(jibekJolu.serve());
-console.log(jibekJolu.serve());
-console.log(jibekJolu.serve());
-console.log(jibekJolu.serve());
-console.log(jibekJolu.serve());
+
 console.log(jibekJolu.setServed(20));
 console.log(jibekJolu.showTotalServed());
 
